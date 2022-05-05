@@ -13,6 +13,7 @@
 		D32E935126FF873000EC1B4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32E934F26FF873000EC1B4D /* Main.storyboard */; };
 		D32E935326FF873C00EC1B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32E935226FF873C00EC1B4D /* Assets.xcassets */; };
 		D32E935626FF873C00EC1B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32E935426FF873C00EC1B4D /* LaunchScreen.storyboard */; };
+		D3786158271C88710079A37C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3786157271C88710079A37C /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D32E935226FF873C00EC1B4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D32E935526FF873C00EC1B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D32E935726FF873C00EC1B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3786157271C88710079A37C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 			children = (
 				D32E934826FF873000EC1B4D /* MVVM */,
 				D32E934726FF873000EC1B4D /* Products */,
+				D3BDAC63271B7F7D00302B90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +62,20 @@
 				D32E934926FF873000EC1B4D /* AppDelegate.swift */,
 				D32E934B26FF873000EC1B4D /* SceneDelegate.swift */,
 				D32E934D26FF873000EC1B4D /* ViewController.swift */,
+				D3786157271C88710079A37C /* ViewModel.swift */,
 				D32E934F26FF873000EC1B4D /* Main.storyboard */,
 				D32E935226FF873C00EC1B4D /* Assets.xcassets */,
 				D32E935426FF873C00EC1B4D /* LaunchScreen.storyboard */,
 				D32E935726FF873C00EC1B4D /* Info.plist */,
 			);
 			path = MVVM;
+			sourceTree = "<group>";
+		};
+		D3BDAC63271B7F7D00302B90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				D32E934E26FF873000EC1B4D /* ViewController.swift in Sources */,
 				D32E934A26FF873000EC1B4D /* AppDelegate.swift in Sources */,
+				D3786158271C88710079A37C /* ViewModel.swift in Sources */,
 				D32E934C26FF873000EC1B4D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
